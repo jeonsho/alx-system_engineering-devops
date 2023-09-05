@@ -1,1 +1,2 @@
-#!/bin/bash; WATER="base water"; STIR="base stir"; result=$(echo "ibase=base water;obase=bestchol; $WATER + $STIR" | bc); echo "Result in base bestchol: $result"
+#!/bin/bash
+bestchol_result=$(echo "obase=bestchol; $decimal_water + $decimal_stir" | bc)
