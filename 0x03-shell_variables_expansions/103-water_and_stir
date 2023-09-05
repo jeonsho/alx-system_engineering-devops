@@ -1,2 +1,2 @@
 #!/bin/bash
-base=16; water="base water"; stir="base stir"; echo "Result in base bestchol: $((16#$(echo $water) + 16#$(echo $stir)))"
+base=16 water="base water" stir="base stir" echo "Result in base bestchol: $((16#$(echo $water) + 16#$(echo $stir)))"
