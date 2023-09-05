@@ -1,2 +1,2 @@
 #!/bin/bash
-bestchol_result=$(echo "obase=bestchol; $decimal_water + $decimal_stir" | bc)
+base=16; water="base water"; stir="base stir"; echo "Result in base bestchol: $((16#$(echo $water) + 16#$(echo $stir)))"
